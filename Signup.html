@@ -1,0 +1,45 @@
+<html>
+<head>
+ <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+</head>
+<body>
+    <script src="java.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <div class="navbar">
+         <ul>
+             <li class="logo">Show<b>Trackr</b> </li>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="add.html">Add</a></li>
+             <li class="login"><a href="Signup.html">Signup</a></li>
+             <li class="login"><a href="login.html">Login</a></li>          
+         </ul>
+     </div>
+     <center>
+        <form >
+            <div class="page">
+               <div class="form">
+                    <h1>Sign Up</h1>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" id="text" name="text"  placeholder="   Name"required >
+                    
+                    <br><br>
+                    <i class="fa fa-at"></i>
+                    <input type="email" id="email" name="email"  placeholder="   Email"required title="Invalid Email Address">
+                    
+                    <br><br>
+                    <i class="fa fa-key"></i>
+                    <input type="password" name="password" id="password" placeholder="       Password" required  pattern="(?=.*\d)(?=.*[a-z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"> 
+                    <br>
+                      <p>By clicking on Sign up,you agree to<a href="#"><b> terms & conditions </b></a>and <a href="#"> privacy policy</a></p>
+                   <button class="sp">Sign up</button><br>
+                   <p>Already have an account? <a href="login.html"><b>Login now</b> </a></p>
+               
+               
+               </div>
+           </div>
+        </form>
+       </center>
+     </body>
+     </head>

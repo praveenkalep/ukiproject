@@ -1,0 +1,359 @@
+body{
+  padding: 15px;
+  margin: 0;
+  background-color: rgb(233, 233, 233);
+}
+
+.navbar{
+  background-color: rgb(247, 247, 247) ;
+  box-shadow: 0px 3px 15px gray;
+  padding-left: 0px;
+  position: sticky;
+  top: 0;
+  display: block;
+  
+}
+.navbar li {
+  display: inline-block;
+  font-family: sans-serif;  
+}
+.navbar a{
+  display: block;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  padding: 20px 10px;
+}
+.navbar li a:hover{
+ background-color: rgb(196, 196, 196);
+ border: 5px;
+}
+
+.logo{
+  background-color: rgb(252, 198, 99);
+  padding :1.5%;
+}
+.login{
+  float: right;
+  padding-left: 20px;
+}
+.alphabate{
+  text-align: center;
+
+}
+.alphabate li{
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+ 
+}
+.alphabate a{
+  text-decoration: none;
+  color: rgb(87, 84, 84);
+ 
+}
+.alphabate li :hover{
+  color: rgb(7, 143, 206);
+}
+.alphabate li a:active{
+  color: brown;
+}
+
+.movies{
+  text-align: center;
+
+}
+.movies  li{
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 1px;
+
+}
+.movies a{
+  display: block;
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+  font-size: 15px;
+  background-color: rgb(194, 190, 190);
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 5px 3px black;
+}
+.movies li :hover{
+  color: white;
+  background-color: black;
+}
+.page{
+  background-color: rgb(207, 207, 207) ;
+  padding-left: 15%;
+  padding-right: 15%;
+  display: 100%;
+}
+.images{
+  text-align: left;
+  background-color: rgb(233, 233, 233);
+  box-shadow: 3px 0px 3px 3px gray;
+  
+}
+.images li{
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  padding-right: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search{
+  float: right;
+}
+.search :placeholder-shown{
+  background-color: rgb(233, 233, 233);
+  border: none;
+}
+.movpo{
+  background-color:rgb(243, 241, 241) ;
+  padding-top: -30px;
+  box-shadow: 3px 5px 3px 3px gray;
+}
+img{
+  width: 205;
+  height: 300;
+  padding: 10px;
+  border-radius: 8%;
+}
+.movpo td :hover{
+  opacity: 0.5;
+}
+.disc1{
+  font-family: inherit;
+  text-align: center;
+}
+
+.disc2{
+  color: gray;
+  font-size: 12px;
+  text-align: center;
+}
+.add{
+  display: block;
+  padding-left: 15%;
+  padding-right: 15%;
+  box-shadow: 3px 5px 3px gray;
+}
+th{
+  background-color: rgb(196, 196, 196);
+}
+td{
+  background-color:  rgb(247, 247, 247) ;
+}
+.footer{
+  background-color: rgb(48, 48, 48);
+  padding-bottom: 0;
+
+}
+.footer li{
+  display: inline-block;
+  padding: 15px;
+
+}
+.footer a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.footer li :hover{
+  background-color: aliceblue;
+  color: black;
+  padding:15px ;
+}
+footer {
+  text-align: center;
+}
+p{
+  color: aliceblue;
+}
+.add th{
+  width: 900px;
+ text-align: left;
+ box-shadow: 0px 10px gray;
+ padding-right: 50px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.add{
+  box-shadow: none;
+}
+.add td{
+  box-shadow: 10px  10px 10px gray;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#text{
+  width: 850px;
+
+}
+button{
+  background-color: rgb(66, 182, 248);
+  border:2px white;
+  padding: 3px;
+  box-shadow: 2px 2px 2px gray;
+}
+.form{
+  background-color: rgb(250, 250, 250);
+  box-shadow: 3px 3px 3px gray;
+  margin-top: 25px;
+  padding-bottom: 15px;
+
+  
+}
+form .page{
+  padding-left: 40%;
+  padding-right: 40%;
+  background-color:rgb(233, 233, 233) ;
+}
+#email{
+  padding: 5px;
+  width: 200px;
+  text-align: inherit;
+}
+ i{
+  padding: 8px;
+ min-width: 8px;
+ position: absolute;
+ 
+}
+#password{
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+}
+.form h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 25px;
+}
+.form button{
+  background-color: rgb(4, 161, 4);
+  width: 200px;
+  color: white;
+  padding: 5px;
+  border-color: white;
+ 
+}
+.form a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 13px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form p{
+  color: gray;
+  font-size: 11px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+fieldset{
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 200px;
+}
+ legend{
+   text-align: center;
+   font-weight: bold;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+  }
+  button.fb{
+    background-color: rgb(36, 78, 117);
+    color: white;
+    padding: 5px;
+    width: 200px;
+    border:2px black;
+  }
+  button.gl{
+    background-color: rgb(207, 21, 21);
+    color: white;
+    padding: 5px;
+    width: 200px;
+    border:2px  white;
+  }
+  #text{
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+  }
+#oops{
+  width: 700px;
+  height: 400px;
+  display: block;
+  padding-left: 300px;
+}
+.om{
+  float: left;
+}
+button.sp{
+  background-color: rgb(64, 159, 202);
+}
+button.fb a {
+  color: aliceblue;
+  
+}
+button.gl a {
+  color: aliceblue;
+}
+.fb i{
+  position: relative;
+}
+.gl i{
+  position: relative;
+}
+.tm{
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  width: 60%;
+  
+  padding-bottom: 350px;
+}
+.disc3 button{
+  width: 200px;
+  background-color: rgb(10, 164, 224);
+
+}
+.disc3 a{
+  text-decoration: none;
+  color: white;
+}
+.disc4{
+position: absolute;
+top: 30%;
+left: 45%;
+transform: translate(-50%, -50%);
+}
+.disc4 h1{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 280px;
+ padding-top: 20%;
+
+}
+.disc4 h2{
+  font-size: 15px;
+  padding-left: 280px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 1%;
+}
+.disc4 i{
+  position: absolute;
+  padding-left: 260px;
+  padding-top: -3%;
+  
+}
+.disc4 p{
+  color: black;
+  font-size: 15px;
+  float: right;
+  padding-left: 280px;
+  padding-top: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.submit{
+  background-color: rgb(15, 142, 226);
+}

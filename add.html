@@ -1,0 +1,38 @@
+<html>
+<head>
+ <link rel="stylesheet" href="styles.css">
+ <script src="java.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+     <div class="navbar">
+         <ul>
+             <li class="logo">Show<b>Trackr</b> </li>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="add.html">Add</a></li>
+             <li class="login"><a href="Signup.html">Signup</a></li>
+             <li class="login"><a href="login.html">Login</a></li>          
+         </ul>
+     </div>
+     
+        <div class="add">
+            <table>
+            <tr>
+                <th>
+                    ADD TV SHOWS
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <form >
+                    <label for="text">Name</label><br>
+                <input type="text" id="text" placeholder="Enter TV show name"  onkeypress="return /[a-z]/i.test(event.key)" title="Only Letters"  required><br><br>
+               <input class="submit" type="submit" value="Add" onclick="myFunction()"/> 
+            </form>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </body>
+</html>
